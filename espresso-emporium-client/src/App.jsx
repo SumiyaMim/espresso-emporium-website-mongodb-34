@@ -1,4 +1,4 @@
-import { AbortedDeferredError, Link, useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 import './App.css'
 import Navbar from './components/Navbar'
 import CoffeeCard from './components/CoffeeCard';

@@ -17,12 +17,12 @@ const router = createBrowserRouter([
     path: "/",
     element: <App></App>,
     errorElement: <Error></Error>,
-    loader: () => fetch('https://espresso-emporium-server-r94cyccfq-sumiya-islams-projects.vercel.app/coffee')
+    loader: () => fetch('https://espresso-emporium-server-b8qbbbg9g-sumiya-islams-projects.vercel.app/coffee')
   },
   {
     path: "/coffee/:id",
     element: <ViewCoffee></ViewCoffee>,
-    loader: () => fetch('https://espresso-emporium-server-r94cyccfq-sumiya-islams-projects.vercel.app/coffee')
+    loader: () => fetch('https://espresso-emporium-server-b8qbbbg9g-sumiya-islams-projects.vercel.app/coffee')
   },
   {
     path: "/addCoffee", 
@@ -31,7 +31,7 @@ const router = createBrowserRouter([
   {
     path: '/updateCoffee/:id', 
     element: <UpdateCoffee></UpdateCoffee>, 
-    loader: ({params}) => fetch(`https://espresso-emporium-server-r94cyccfq-sumiya-islams-projects.vercel.app/coffee/${params.id}`)
+    loader: ({params}) => fetch(`https://espresso-emporium-server-b8qbbbg9g-sumiya-islams-projects.vercel.app/coffee/${params.id}`)
   },
   {
     path: "/signup", 
@@ -44,7 +44,7 @@ const router = createBrowserRouter([
   {
     path: "/users", 
     element: <Users></Users>,
-    loader: () => fetch('https://espresso-emporium-server-r94cyccfq-sumiya-islams-projects.vercel.app/user')
+    loader: () => fetch('https://espresso-emporium-server-b8qbbbg9g-sumiya-islams-projects.vercel.app/user')
   }
 ])
 ReactDOM.createRoot(document.getElementById('root')).render(

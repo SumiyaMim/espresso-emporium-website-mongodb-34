@@ -22,7 +22,7 @@ const CoffeeCard = ({coffee, coffees, setCoffees}) => {
         }).then((result) => {
             if (result.isConfirmed) {
 
-                fetch(`https://espresso-emporium-server-r94cyccfq-sumiya-islams-projects.vercel.app/coffee/${_id}`, {
+                fetch(`https://espresso-emporium-server-b8qbbbg9g-sumiya-islams-projects.vercel.app/coffee/${_id}`, {
                     method: 'DELETE'
                 })
                 .then(res => res.json())

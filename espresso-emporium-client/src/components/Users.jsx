@@ -11,7 +11,7 @@ const Users = () => {
   const [users, setUsers] = useState(loadedUsers);
 
   const handleUserDelete = id => {
-    fetch(`https://espresso-emporium-server-r94cyccfq-sumiya-islams-projects.vercel.app/user/${id}`, {
+    fetch(`https://espresso-emporium-server-b8qbbbg9g-sumiya-islams-projects.vercel.app/user/${id}`, {
       method: 'DELETE'
     })
     .then(res => res.json())

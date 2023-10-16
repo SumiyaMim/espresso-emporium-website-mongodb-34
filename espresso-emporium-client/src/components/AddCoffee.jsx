@@ -24,7 +24,7 @@ const AddCoffee = () => {
     console.log(newCoffee);
 
      // send data to the server
-     fetch('https://espresso-emporium-server-r94cyccfq-sumiya-islams-projects.vercel.app/coffee',{
+     fetch('https://espresso-emporium-server-b8qbbbg9g-sumiya-islams-projects.vercel.app/coffee',{
       method: 'POST',
       headers: {
           'content-type': 'application/json'

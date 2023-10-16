@@ -34,7 +34,7 @@ const SignIn = () => {
             lastLoggedAt: result.user?.metadata?.lastSignInTime
           }
           // update last logged at in the database
-          fetch('https://espresso-emporium-server-r94cyccfq-sumiya-islams-projects.vercel.app/user', {
+          fetch('https://espresso-emporium-server-b8qbbbg9g-sumiya-islams-projects.vercel.app/user', {
                 method: 'PATCH',
                 headers: {
                     'content-type': 'application/json'

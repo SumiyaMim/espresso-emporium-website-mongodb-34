@@ -35,7 +35,7 @@ const SignUp = () => {
                 // new user has been created
                 const createdAt = result.user?.metadata?.creationTime;
                 const user = { email, createdAt: createdAt };
-                fetch('https://espresso-emporium-server-r94cyccfq-sumiya-islams-projects.vercel.app/user', {
+                fetch('https://espresso-emporium-server-b8qbbbg9g-sumiya-islams-projects.vercel.app/user', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'
