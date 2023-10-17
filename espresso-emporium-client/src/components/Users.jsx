@@ -40,7 +40,7 @@ const Users = () => {
             </Link>
           </div>
         </div>
-        <h2 className="text-center mb-10 font-bold text-2xl font-display">Total User: {loadedUsers.length}</h2>
+        <h2 className="text-center mb-10 font-bold text-2xl font-display">Total User: {users.length}</h2>
         <div className="overflow-x-auto">
           <table className="table">
             {/* head */}
